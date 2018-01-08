@@ -20,8 +20,8 @@ echo $ProcessDir
 
 mes=4
 dia=22
- 
-while [ $dia -le 22 ] ;do
+dia2=22 
+while [ $dia -le $dia2 ] ;do
 echo $dia
 cd $ProcessDir/04_temis
 
